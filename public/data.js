@@ -1,6 +1,28 @@
 
+function encode_utf8(s) {
+  return unescape(encodeURIComponent(s));
+}
 
-var cand =
+function decode_utf8(s) {
+  return decodeURIComponent(escape(s));
+}
+
+
+var unPais = decode_utf8("1País");
+var delcano = decode_utf8("Del Caño");
+var nicolasdelcano = decode_utf8("Nicolás Del Caño");
+var carrio = decode_utf8("Carrió");
+var cabandie = decode_utf8("Cabandié");
+var elisacarrio = decode_utf8("Elisa Carrió");
+var juancabandie = decode_utf8("Juan Cabandié");
+
+var aragon = decode_utf8("Aragón");
+var analogias = decode_utf8("Analogías");
+
+console.log(unPais);
+
+
+var cand = 
 [
 		/*---------------------------------------------------------------------------------------*/
 		/*---------------------------------provincia de Buenos Aires 1 ----------------------------------------------*/
@@ -10,9 +32,9 @@ var cand =
 
 [{"cand":"Bullrich","prom":24.91795895,"desv":7.741694408,"promPROY":27.28053732,"desvPROY":7.705883039,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
 {"cand":"C. Kirchner","prom":29.30823501,"desv":3.981347406,"promPROY":32.29597227,"desvPROY":3.784076267,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-{"cand":"Massa","prom":24.0916442,"desv":5.437913545,"promPROY":26.7886672,"desvPROY":6.973366655,"fotos":"images/cand/massa.png","nombComp":"Segio Massa","partido":"1Pa&iacutes"},
+{"cand":"Massa","prom":24.0916442,"desv":5.437913545,"promPROY":26.7886672,"desvPROY":6.973366655,"fotos":"images/cand/massa.png","nombComp":"Segio Massa","partido":unPais},
 {"cand":"Randazzo","prom":8.391424128,"desv":2.354556659,"promPROY":9.342961766,"desvPROY":2.909238942,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"PJ"},
-{"cand":"Del Caño","prom":3.88373367,"desv":1.005871905,"promPROY":4.291861448,"desvPROY":1.109688351,"fotos":"images/cand/delcano.png","nombComp":"Nicolás Del Caño","partido":"FIT"},
+{"cand":delcano,"prom":3.88373367,"desv":1.005871905,"promPROY":4.291861448,"desvPROY":1.109688351,"fotos":"images/cand/delcano.png","nombComp":nicolasdelcano,"partido":"FIT"},
 {"cand":"NS/NC:","prom":9.407004043,"desv":3.886667845,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 ],
 
@@ -22,8 +44,8 @@ var cand =
 		/*------------------------------------------ciudad de Buenos Aires-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-		[{"cand":"Carrió","prom":41.85753454,"desv":3.300704294,"promPROY":46.3520536,"desvPROY":0.5084492,"fotos":"images/cand/carrio.png","nombComp":"Elisa Carrió","partido":"Cambiemos"},
-		{"cand":"Cabandié","prom":21.23124117,"desv":3.09117716,"promPROY":23.43770658,"desvPROY":2.049848496,"fotos":"images/cand/cabandie.png","nombComp":"Juan Cabandié","partido":"FPV"},
+		[{"cand":carrio,"prom":41.85753454,"desv":3.300704294,"promPROY":46.3520536,"desvPROY":0.5084492,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
+		{"cand":cabandie,"prom":21.23124117,"desv":3.09117716,"promPROY":23.43770658,"desvPROY":2.049848496,"fotos":"images/cand/cabandie.png","nombComp":juancabandie,"partido":"FPV"},
 		{"cand":"Losteau","prom":18.99679563,"desv":2.577917761,"promPROY":21.09138744,"desvPROY":2.881477908,"fotos":"images/cand/lousteau.png","nombComp":"Martín Lousteau","partido":"ECO"},
 		{"cand":"Zamora","prom":4.109661913,"desv":1.392167998,"promPROY":4.591387661,"desvPROY":1.654205426,"fotos":"images/cand/zamora.png","nombComp":"Luis Zamora","partido":"AyL"},
 		{"cand":"Bregman","prom":4.07801536,"desv":0.475418996,"promPROY":4.527464718,"desvPROY":0.535604885,"fotos":"images/cand/bregman.png","nombComp":"Myriam Bregman","partido":"FIT"},
@@ -191,7 +213,9 @@ var cand =
 	]
 
 
-];
+]
+
+;
 
 
 
@@ -250,12 +274,12 @@ var encuestas =
 		/*---------------------------------PBA ----------------------------------------------*/
 		/*---------------------------------------------------------------------------------------*/
 
-		[{"nro":8,"enc":"Aragon","fecha":"08/06/2017","peso":0.197753867},
+		[{"nro":8,"enc":aragon,"fecha":"08/06/2017","peso":0.197753867},
 		{"nro":7,"enc":"Query","fecha":"01/06/2017","peso":0.185216633},
 		{"nro":6,"enc":"Aresco","fecha":"31/05/2017","peso":0.244776544},
 		{"nro":5,"enc":"Circuitos","fecha":"30/05/2017","peso":0.061009508},
 		{"nro":4,"enc":"Polldata","fecha":"29/05/2017","peso":0.067494232},
-		{"nro":3,"enc":"Analogías","fecha":"23/05/2017","peso":0.148395625},
+		{"nro":3,"enc":analogias,"fecha":"23/05/2017","peso":0.148395625},
 		{"nro":2,"enc":"Haime","fecha":"19/05/2017","peso":0.056563427},
 		{"nro":1,"enc":"Aragón","fecha":"08/05/2017","peso":0.038790164}]
 
@@ -266,8 +290,8 @@ var encuestas =
 		/*---------------------------------------------------------------------------------------------------------*/
 
 		[{"nro":3,"enc":"Rouvier","fecha":"31/05/2017","peso":0.746360514},
-		{"nro":2,"enc":"Analogías","fecha":"13/04/2017","peso":0.179884704},
-		{"nro":1,"enc":"Aragón","fecha":"30/03/2017","peso":0.073754781}]
+		{"nro":2,"enc":analogias,"fecha":"13/04/2017","peso":0.179884704},
+		{"nro":1,"enc":aragon,"fecha":"30/03/2017","peso":0.073754781}]
 
 		,
 
