@@ -281,7 +281,7 @@ var encuestas =
 		{"nro":4,"enc":"Polldata","fecha":"29/05/2017","peso":0.067494232},
 		{"nro":3,"enc":analogias,"fecha":"23/05/2017","peso":0.148395625},
 		{"nro":2,"enc":"Haime","fecha":"19/05/2017","peso":0.056563427},
-		{"nro":1,"enc":"Aragón","fecha":"08/05/2017","peso":0.038790164}]
+		{"nro":1,"enc":aragon,"fecha":"08/05/2017","peso":0.038790164}]
 
 	,
 
