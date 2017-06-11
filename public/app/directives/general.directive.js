@@ -33,7 +33,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 				.attr("id","svg0")
 			   // .attr("width", width)
 			   // .attr("height", height)
-			    .attr("viewBox", "0 0 600 778")
+			    .attr("viewBox", "0 0 600 478")
 			    .attr("perserveAspectRatio","xMinYMid");
 
 			//Group for the map features
