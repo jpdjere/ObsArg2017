@@ -8,7 +8,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 			controller: function($scope,$http,$sce){
 
 			$scope.estado = {id:0,name:"",data:[]};
-			$scope.estado.name = "Coahuila"
+			$scope.estado.name = "Buenos Aires"
 
 
 			//Map dimensions (in pixels)
@@ -17,8 +17,8 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 
 			//Map projection
 			var projection = d3.geo.mercator()
-			    .scale(1032.2520088666774)
-			    .center([-102.54673767089835,23.9520140252885]) //projection center
+			    .scale(600)
+			    .center([-61.03,-36.28]) //projection center
 			    .translate([width/2,height/2]) //translate to center the map in view
 
 			//Generate paths based on projection
@@ -33,7 +33,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 				.attr("id","svg0")
 			   // .attr("width", width)
 			   // .attr("height", height)
-			    .attr("viewBox", "0 0 600 378")
+			    .attr("viewBox", "0 0 600 778")
 			    .attr("perserveAspectRatio","xMinYMid");
 
 			//Group for the map features
@@ -47,7 +47,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 
 
 
-			d3.json("maps/mapaARG2017.geojson",function(error,geodata) {
+			d3.json("maps/mapFINALsoloPBAyCABA.geojson",function(error,geodata) {
 			  if (error) return console.log(" error viejaaaa"); //unknown error, check the console
 
 			  //Create a path for each map feature in the data
@@ -56,21 +56,30 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 			    .enter()
 			    .append("path")
 			    .attr("d",path)
-			    .attr("class", function(d) { return (typeof color(d.properties.FID) == "string" ? color(d.properties.FID) : ""); })
+			    .attr("class", function(d) {
+						if(d.properties.show === "si"){
+							//Si tiene la propiedad show en "si", esta pintada con la clase q2, definida en general-directive.html
+							return "q2";
+						}else{
+							return "q1";
+						}
+						// return (typeof color(d.properties.show) == "string" ? color(d.properties.show) : "");
+					})
 			    .on("mouseover",function(d){
 
-
 			    	hoveredPath = d3.select(this);
+						console.log(hoveredPath);
+						console.log(d);
 
-			    	if(d.properties.FID === 1){
+			    	if(d.properties.show === "si"){
 			    		showTooltip(d);
 			    		hoveredPath.style('fill','#205E8C');
 
 			    		$scope.$apply(function() {  //Sin este apply la actualizacion de estadoData no se refleja en el ng-repeat del panel de abajo
-				    		console.log(d.properties.name.toString());
-				    		console.log(selectState(d.properties.name.toString())-1);
-				    		$scope.estado.id = selectState(d.properties.name.toString())-1;  //Resto uno. Recordar que esta desfazado el nuero del TAB con el objeto Datos
-				    		$scope.estado.name = d.properties.name.toString();
+				    		console.log(d.id.toString());
+				    		console.log(selectState(d.id.toString())-1);
+				    		$scope.estado.id = selectState(d.id.toString())-1;  //Resto uno. Recordar que esta desfazado el nuero del TAB con el objeto Datos
+				    		$scope.estado.name = d.properties.Provincia.toString();
 				    		//if($scope.estado.id = 4){$scope.estado.name = "Ciudad de México"};
 
 				    		$scope.width = "calc(100%/$scope.estado.data["+$scope.estado.id+"].length)";
@@ -86,7 +95,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 			    	hideTooltip();
 			    	hoveredPath = d3.select(this);
 
-			    	if(d.properties.FID === 1){
+			    	if(d.properties.show === "si"){
 			    		hoveredPath.style('fill','#3182BD');
 			    	}
 			    })
@@ -109,7 +118,7 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 			  moveTooltip();
 
 			  tooltip.style("display","block")
-			      .text(d.properties.name);
+			      .text(d.properties.Provincia);
 			}
 
 			//Move the tooltip to track the mouse
@@ -126,10 +135,10 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 
 			function selectState(state){
 				switch(state){
-					case "Coahuila": return 1; break;
-					// case "Estado de México": return 2; break;
-					case "Estado de Mexico": return 2; break;
-					case "Nayarit": return 3; break;
+					case "BUENOS AIRES": return 1; break;
+					case "CIUDAD DE BUENOS AIRES": return 2; break;
+					// case "Estado de Mexico": return 2; break;
+					// case "Nayarit": return 3; break;
 					// case "Hidalgo": return 4; break;
 					// case "Ciudad de Mexico": return 5; break;
 					// case "Oaxaca": return 6; break;

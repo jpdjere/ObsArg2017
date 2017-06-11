@@ -4,23 +4,24 @@ var app = angular.module('store');
 		//Traigo la data de data.js
 		this.ratings = ratings;
 		this.encuestas = encuestas;
+		var numeroDistritos = 5;
 
 		//Meto las encuestas en su array
 		$scope.encuestas = [];
 		for(var i = 0;i<=12;i++){
 
 			$scope.encuestas[i] = this.encuestas[i];
-			
+
 		};
- 
+
 		$scope.margins = [0,10,20,30,40,50,60];
 
 
-		
+
 		//Cargo datos que se cargan en el primer arg de createGraphFunction
 		$scope.datos = [];
 
-		for(var i = 0;i<=12;i++){
+		for(var i = 0;i<=numeroDistritos-1;i++){
 
 			$scope.datos[i] = cand[i][0];  //el 0 es por el ultimo mes
 
@@ -35,9 +36,9 @@ var app = angular.module('store');
 		$scope.svgs = [];
 		$scope.svgs[0] = d3.select("#mapa");  //Defino el 0 como el mapa y cargo a partir del 1
 		for(var i = 1;i<=13;i++){
-			
+
 			$scope.svgs[i] = d3.select("#svg"+i);
-			
+
 		}
 
 		//Cargo contenedores de graficos
