@@ -30,13 +30,12 @@ var cand =
 		/*---------------------------------------------------------------------------------------*/
 [
 
-
-[{"cand":"Bullrich","prom":24.91795895,"desv":7.741694408,"promPROY":27.28053732,"desvPROY":7.705883039,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
-{"cand":"C. Kirchner","prom":29.30823501,"desv":3.981347406,"promPROY":32.29597227,"desvPROY":3.784076267,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-{"cand":"Massa","prom":24.0916442,"desv":5.437913545,"promPROY":26.7886672,"desvPROY":6.973366655,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
-{"cand":"Randazzo","prom":8.391424128,"desv":2.354556659,"promPROY":9.342961766,"desvPROY":2.909238942,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"PJ"},
-{"cand":delcano,"prom":3.88373367,"desv":1.005871905,"promPROY":4.291861448,"desvPROY":1.109688351,"fotos":"images/cand/delcano.png","nombComp":nicolasdelcano,"partido":"FIT"},
-{"cand":"NS/NC:","prom":9.407004043,"desv":3.886667845,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
+  [{"cand":"Bullrich","prom":25.1278456,"desv":7.140358075,"promPROY":27.41560838,"desvPROY":7.084801516,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
+  {"cand":"C. Kirchner","prom":29.75523945,"desv":3.734647675,"promPROY":32.64646365,"desvPROY":3.48882839,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
+  {"cand":"Massa","prom":24.0545995,"desv":5.098431495,"promPROY":26.61426075,"desvPROY":6.532155386,"fotos":"images/cand/massa.png","nombComp":"Segio Massa","partido":unPais},
+  {"cand":"Randazzo","prom":8.03123778,"desv":2.375326414,"promPROY":8.905720366,"desvPROY":2.91703864,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"PJ"},
+  {"cand":delcano,"prom":4.019736583,"desv":0.988184798,"promPROY":4.417946855,"desvPROY":1.065947945,"fotos":"images/cand/delcano.png","nombComp":nicolasdelcano,"partido":"FIT"},
+  {"cand":"NS/NC:","prom":9.011341093,"desv":3.658400414,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 
 ],
 
@@ -159,14 +158,16 @@ var encuestas =
 		/*---------------------------------PBA ----------------------------------------------*/
 		/*---------------------------------------------------------------------------------------*/
 
-		[{"nro":8,"enc":aragon,"fecha":"08/06/2017","peso":0.197753867},
-		{"nro":7,"enc":"Query","fecha":"01/06/2017","peso":0.185216633},
-		{"nro":6,"enc":"Aresco","fecha":"31/05/2017","peso":0.244776544},
-		{"nro":5,"enc":"Circuitos","fecha":"30/05/2017","peso":0.061009508},
-		{"nro":4,"enc":"Polldata","fecha":"29/05/2017","peso":0.067494232},
-		{"nro":3,"enc":analogias,"fecha":"23/05/2017","peso":0.148395625},
-		{"nro":2,"enc":"Haime","fecha":"19/05/2017","peso":0.056563427},
-		{"nro":1,"enc":aragon,"fecha":"08/05/2017","peso":0.038790164}]
+    [{"nro":10,"enc":"Polldata","fecha":"13/06/2017","peso":0.080953421},
+    {"nro":9,"enc":"Haime","fecha":"12/06/2017","peso":0.108749239},
+    {"nro":8,"enc":aragon,"fecha":"08/06/2017","peso":0.170836202},
+    {"nro":7,"enc":"Query","fecha":"01/06/2017","peso":0.160005499},
+    {"nro":6,"enc":"Aresco","fecha":"31/05/2017","peso":0.211458293},
+    {"nro":5,"enc":"Circuitos","fecha":"30/05/2017","peso":0.052705076},
+    {"nro":4,"enc":"Polldata","fecha":"29/05/2017","peso":0.029153559},
+    {"nro":3,"enc":analogias,"fecha":"23/05/2017","peso":0.128196456},
+    {"nro":2,"enc":"Haime","fecha":"19/05/2017","peso":0.024432091},
+    {"nro":1,"enc":aragon,"fecha":"08/05/2017","peso":0.033510163}]
 
 	,
 
@@ -215,16 +216,18 @@ var numeros =
 
 
 
-		{
-		  "7":[15.87485242,30.80897285,37.51168831,12.69988194,2.704604486,0,1987],
-		  "6":[26.28205128,29.05982906,31.3034188,7.692307692,5.662393162,0,1000],
-		  "5":[17.343044,35.02175981,25.62294887,10.96527943,5.146967895,0,2440],
-		  "4":[30.69196429,31.69642857,23.99553571,7.8125,5.803571429,0,855],
-		  "3":[26.99930151,31.51711292,17.31827707,10.97182771,5.593480792,0,809],
-		  "2":[31.46280088,30.30142232,23.9666302,7.496170678,3.27297593,0,3006],
-		  "1":[36.41304348,35.97826087,18.58695652,5.543478261,3.47826087,0,2123],
-		  "0":[19.42899408,26.96508876,36.3852071,12.59940828,4.121301775,0,1804]
-		}
+    {
+      "9":[15.87485242,30.80897285,37.51168831,12.69988194,2.704604486,0,1987],
+      "8":[26.28205128,29.05982906,31.3034188,7.692307692,5.662393162,0,1000],
+      "7":[17.343044,35.02175981,25.62294887,10.96527943,5.146967895,0,2440],
+      "6":[30.69196429,31.69642857,23.99553571,7.8125,5.803571429,0,855],
+      "5":[26.99930151,31.51711292,17.31827707,10.97182771,5.593480792,0,809],
+      "4":[31.46280088,30.30142232,23.9666302,7.496170678,3.27297593,0,3006],
+      "3":[36.41304348,35.97826087,18.58695652,5.543478261,3.47826087,0,2123],
+      "2":[19.42899408,26.96508876,36.3852071,12.59940828,4.121301775,0,1804],
+      "1":[27.07659115,32.79395901,29.01833873,5.825242718,5.285868393,0,1000],
+      "0":[30.15021459,34.7639485,21.99570815,7.618025751,5.472103004,0,720]
+    }
 
 
 	,
