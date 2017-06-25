@@ -14,6 +14,7 @@ var nicolasdelcano = decode_utf8("Nicolás Del Caño");
 var carrio = decode_utf8("Carrió");
 var cabandie = decode_utf8("Cabandié");
 var martinlousteau = decode_utf8("Martín Lousteau");
+var evolucionciudadana = decode_utf8("Evolución Ciudadana");
 var elisacarrio = decode_utf8("Elisa Carrió");
 var juancabandie = decode_utf8("Juan Cabandié");
 
@@ -32,9 +33,9 @@ var cand =
 
   [{"cand":"Bullrich","prom":25.1278456,"desv":7.140358075,"promPROY":27.41560838,"desvPROY":7.084801516,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
   {"cand":"C. Kirchner","prom":29.75523945,"desv":3.734647675,"promPROY":32.64646365,"desvPROY":3.48882839,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-  {"cand":"Massa","prom":24.0545995,"desv":5.098431495,"promPROY":26.61426075,"desvPROY":6.532155386,"fotos":"images/cand/massa.png","nombComp":"Segio Massa","partido":unPais},
+  {"cand":"Massa","prom":24.0545995,"desv":5.098431495,"promPROY":26.61426075,"desvPROY":6.532155386,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
   {"cand":"Randazzo","prom":8.03123778,"desv":2.375326414,"promPROY":8.905720366,"desvPROY":2.91703864,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"PJ"},
-  {"cand":delcano,"prom":4.019736583,"desv":0.988184798,"promPROY":4.417946855,"desvPROY":1.065947945,"fotos":"images/cand/delcano.png","nombComp":nicolasdelcano,"partido":"FIT"},
+  {"cand":"Pitrola","prom":4.019736583,"desv":0.988184798,"promPROY":4.417946855,"desvPROY":1.065947945,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
   {"cand":"NS/NC:","prom":9.011341093,"desv":3.658400414,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 
 ],
@@ -46,8 +47,8 @@ var cand =
 		/*---------------------------------------------------------------------------------------------------------*/
 
 		[{"cand":carrio,"prom":41.85753454,"desv":3.300704294,"promPROY":46.3520536,"desvPROY":0.5084492,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
-		{"cand":cabandie,"prom":21.23124117,"desv":3.09117716,"promPROY":23.43770658,"desvPROY":2.049848496,"fotos":"images/cand/cabandie.png","nombComp":juancabandie,"partido":"FPV"},
-		{"cand":"Losteau","prom":18.99679563,"desv":2.577917761,"promPROY":21.09138744,"desvPROY":2.881477908,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":"ECO"},
+		{"cand":"Filmus","prom":21.23124117,"desv":3.09117716,"promPROY":23.43770658,"desvPROY":2.049848496,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
+		{"cand":"Losteau","prom":18.99679563,"desv":2.577917761,"promPROY":21.09138744,"desvPROY":2.881477908,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
 		{"cand":"Zamora","prom":4.109661913,"desv":1.392167998,"promPROY":4.591387661,"desvPROY":1.654205426,"fotos":"images/cand/zamora.png","nombComp":"Luis Zamora","partido":"AyL"},
 		{"cand":"Bregman","prom":4.07801536,"desv":0.475418996,"promPROY":4.527464718,"desvPROY":0.535604885,"fotos":"images/cand/bregman.png","nombComp":"Myriam Bregman","partido":"FIT"},
 		{"cand":"NS/NC:","prom":9.726751396,"desv":6.507022135,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
