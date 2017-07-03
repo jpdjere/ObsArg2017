@@ -33,7 +33,7 @@ var cand =
 
   [{"cand":"Bullrich","prom":26.15891067,"desv":6.952056842,"promPROY":28.59574048,"desvPROY":6.947345341,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
   {"cand":"C. Kirchner","prom":30.50553387,"desv":3.735056418,"promPROY":33.50179954,"desvPROY":3.538188209,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-  {"cand":"Massa","prom":23.32067477,"desv":5.492452744,"promPROY":25.82162924,"desvPROY":6.834172429,"fotos":"images/cand/massa.png","nombComp":"Segio Massa","partido":unPais},
+  {"cand":"Massa","prom":23.32067477,"desv":5.492452744,"promPROY":25.82162924,"desvPROY":6.834172429,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
   {"cand":"Randazzo","prom":7.264379359,"desv":2.503630258,"promPROY":8.051415289,"desvPROY":2.98968751,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
   {"cand":"Pitrola","prom":3.66811765,"desv":1.141625943,"promPROY":4.029415442,"desvPROY":1.233301618,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
   {"cand":"NS/NC:","prom":9.082383679,"desv":3.337589167,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
