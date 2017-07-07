@@ -641,30 +641,28 @@ var app = angular.module('store');
 					    })
 					    .attr("class","textoTooltip")
 					    .attr("x", function(){
- 							if(cand_i === 'NS/NC'){
- 								posXNSNC = parseFloat(posX);
- 								posNSNCVar = true;
- 								return posXNSNC;
+		 							if(cand_i === 'NS/NC'){
+		 								posXNSNC = parseFloat(posX);
+		 								posNSNCVar = true;
+										console.log("Entre a nsnc")
+		 								return posXNSNC;
 
- 							}else if(cand_i === 'Larreta'){
- 								posXNSNC = parseFloat(posX)-200;
- 								posNSNCVar = true;
- 								return posXNSNC-200;
+		 							}else if(cand_i === 'Larreta'){
+		 								posXNSNC = parseFloat(posX)-200;
+		 								posNSNCVar = true;
+										console.log("Entre a Larreta")
+		 								return posXNSNC-200;
 
- 							}else if(prom_i > 40){
- 								var posXNSNC = parseFloat(posX);
- 								posNSNCVar = true;
- 								return posXNSNC-500;
+		 							}else{
+		 								/*var posNSNCVar = false;
+		 								var posX2= posX-20;
+		 								return posX2;*/
+		 								posX2 = parseFloat(posX);
+		 								posNSNCVar = false;
+		 								return posX2-30;
 
- 							}else{
- 								/*var posNSNCVar = false;
- 								var posX2= posX-20;
- 								return posX2;*/
- 								posX2 = parseFloat(posX);
- 								posNSNCVar = false;
- 								return posX2-30;
-
- 							}
+		 							}
+									//RECORDAR QUE EL TEXTO SE ACOMODA EN LA FUNCION wrap DE ABAJO
 
  						})
 					    .call(wrap,145,posX,posXNSNC,cand_i)
@@ -695,7 +693,14 @@ var app = angular.module('store');
 					  	posicionX = posXNSNC2-110;
 					  }else if(cand_i === 'Larreta'){
 					  	posicionX = posXNSNC2+10;
-					  }else{
+					  }else if(prom_i > 40){
+							console.log("Entre a prom_i > 40.2")
+							posicionX = posX-490;
+						// 	var posXNSNC = parseFloat(posX);
+						// 	posNSNCVar = true;
+						// 	return posXNSNC-500;
+
+						}else{
 					  	posicionX = posX;
 					  }
 					  text.each(function() {
