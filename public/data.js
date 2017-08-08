@@ -19,7 +19,7 @@ var evolucionciudadana = decode_utf8("Evolución Ciudadana");
 var elisacarrio = decode_utf8("Elisa Carrió");
 var juancabandie = decode_utf8("Juan Cabandié");
 
-var aragon = decode_utf8(aragon);
+var aragon = decode_utf8("Aragón");
 var analogias = decode_utf8("Analogías");
 
 console.log(unPais);
