@@ -50,7 +50,7 @@ var cand =
     [{"cand":carrio,"promPROY":50.25276817,"desvPROY":4.021161116,"prom":53.61201428,"desv":4.198749211,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
     {"cand":"Filmus","promPROY":23.29049536,"desvPROY":2.964506848,"prom":24.85423219,"desv":3.174157664,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
     {"cand":"Losteau","promPROY":14.29479616,"desvPROY":3.72846416,"prom":15.21322015,"desv":3.805103967,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
-    {"cand":"Tombolini","promPROY":2.933145145,"desvPROY":0.975805447,"prom":3.158580805,"desv":1.180465142,"fotos":"images/cand/tombolini.png","nombComp":"Matías Tombolini","partido":"FR"},
+    {"cand":"Tombolini","promPROY":2.933145145,"desvPROY":0.975805447,"prom":3.158580805,"desv":1.180465142,"fotos":"images/cand/tombolini.png","nombComp":"Matias Tombolini","partido":"FR"},
     {"cand":"Ramal","promPROY":2.998510932,"desvPROY":1.936616456,"prom":3.161952574,"desv":1.990326016,"fotos":"images/cand/otros.png","nombComp":"Marcelo Ramal","partido":"FIT"},
     {"cand":"NS/NC:","promPROY":6.230284234,"desvPROY":3.020129796,"prom":0,"desv":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 
