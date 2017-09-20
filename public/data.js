@@ -74,7 +74,7 @@ var cand =
 		/*------------------------------------- 3 - CABA - Eleccion General---------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"cand":"carrio","prom":"51.90%","desv":"2.09%","cand":"carrio","promPROY":51.89649286,"desvPROY":2.09317998,"prom":56.76460476,"desv":1.269278139,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
+    [{"cand":carrio,"prom":"51.90%","desv":"2.09%","cand":"carrio","promPROY":51.89649286,"desvPROY":2.09317998,"prom":56.76460476,"desv":1.269278139,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
     {"cand":"Filmus","prom":"21.41%","desv":"1.61%","cand":"Filmus","promPROY":21.41178476,"desvPROY":1.608029597,"prom":23.42827777,"desv":1.704700509,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
     {"cand":"Losteau","prom":"11.14%","desv":"0.56%","cand":"Losteau","promPROY":11.14082926,"desvPROY":0.558250028,"prom":12.19416355,"desv":0.67970493,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
     {"cand":"Tombolini","prom":"3.88%","desv":"0.76%","cand":"Tombolini","promPROY":3.878993409,"desvPROY":0.759352512,"prom":4.24750567,"desv":0.842631751,"fotos":"images/cand/tombolini.png","nombComp":"Matías Tombolini","partido":"FR"},
