@@ -144,7 +144,7 @@
 
 
 
-		<div ng-show="tab.isSet(2)" ><!--............................ Coahuila 1 ..................................-->
+		<div ng-show="tab.isSet(2)" ><!--............................ Provincia de Buenos Aires ..................................-->
 		  			<div class="textWrapper">
 			  			<div class="sectionTitle">
 				  			Provincia de Buenos Aires
@@ -152,7 +152,7 @@
 				  		<div>
 
 				  				<p  class="exp_overBarGraph">
-									El gr&aacutefico muestra el rango del porcentaje de votos que, seg&uacuten las encuestas analizadas obtendr&aacuten los candidatos en las PASO a senador por la provincia de Buenos Aires.
+									El gr&aacutefico muestra el rango del porcentaje de votos que, seg&uacuten las encuestas analizadas obtendr&aacuten los candidatos en las elecciones a senador por la provincia de Buenos Aires.
 
 									Las bandas marcan el m&iacutenimo y el m&aacuteximo del porcentaje de votos, con un 95% de probabilidad. El c&iacuterculo marca el promedio que arrojan las encuestas.
 
@@ -161,14 +161,85 @@
 				  		</div>
 				  	</div>
 
+							<!--............................  2 - PBA - ELECCION GENERAL (SVG 3)..................................-->
 
-				  		<div class="row">
+							<div class="textWrapper">
+								<div class="sectionTitle" style="font-size:31px">
+									Elecciones Generales
+								</div>
+							</div>
+
+				  		<div class="row textWrapper">
 				  			<div class="col-sm-8 col-xs-12">
 					  			<div class="hidden-xs" id="slider1" style="float:left;padding-top:10px">
 					  				<!--aca se va a crear el slider -->
 
 						  		</div>
-						  		<!--div id="textoMes1" class="stag"><p class="mesSlider">Agosto</p></div-->
+
+				  				<!--     ................ GRAFICO ...............     -->
+				  				<div class="" style="width:100%">
+				  					<svg id="svg3" style="float:left;width:100%;"></svg>
+				  				</div>
+
+
+						  	</div>
+						  	<div class="col-sm-4 col-xs-12">
+						  		<div class="hidden-xs">
+						  			<!--p class="explicSlider">
+						  				Us� el slider para cambiar el mes. Las tabla muestra las encuestas que se agregaron cada mes. Pos� el mouse sobre ellas para ver los resultados que dio cada una.
+						  			</p-->
+						  		</div>
+
+				  				<table class="table-condensed ultEncuestas">
+									<tr class="stag-book borderBottomThick">
+										<th><p>FECHA</p></th>
+										<th><p>ENCUESTADORA</p></th>
+										<th><p>PESO</p></th>
+									</tr>
+									<tr class="stag-book borderBottomFino negrita" hover-cand ng-repeat="datos in store.encuestas[2]" ng-mouseenter="createCirculosEncuestas(svgs[3],numeros[2],$index)" ng-mouseleave="	removeCirculosEncuestas(svgs[3])">
+											<td><p>{{datos.fecha}}</p></td>
+											<td><p>{{datos.enc}}</p></td>
+											<td class="textoCenter">
+													<span ng-if="datos.peso >= 0 && datos.peso < 0.05">
+														<img src="images/bat0.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.05 && datos.peso < 0.1">
+														<img src="images/bat1.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.1 && datos.peso < 0.15">
+														<img src="images/bat2.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.15 && datos.peso < 0.20">
+														<img src="images/bat3.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.20 && datos.peso < 0.30">
+														<img src="images/bat4.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.30">
+														<img src="images/bat5.png" height="20" width="20" />
+													</span>
+											</td>
+									</tr>
+				  				</table>
+				  				<div class="stag" ng-show="emptyEncuestas === true">Esta encuesta midi� s�lo frentes electorales.</div>
+								<div class="stag" ng-show="fichaTec === true">Casos: {{numeros[2][fichaTecIndex][numeros[2][fichaTecIndex].length-1]}}</div>
+						  	</div>
+					  	</div>
+
+
+							<!--............................ 0 - PASO PROVINCIA BSAS (SVG 1) ..................................-->
+							<div class="textWrapper">
+								<div class="sectionTitle" style="font-size:31px">
+									PASO
+								</div>
+							</div>
+
+				  		<div class="row textWrapper">
+				  			<div class="col-sm-8 col-xs-12">
+					  			<div class="hidden-xs" id="slider1" style="float:left;padding-top:10px">
+					  				<!--aca se va a crear el slider -->
+
+						  		</div>
 
 				  				<!--     ................ GRAFICO ...............     -->
 				  				<div class="" style="width:100%">
@@ -228,7 +299,7 @@
 
 		</div>
 
-		<div ng-show="tab.isSet(3)" > <!--............................ Estado de Mexico 2..................................-->
+		<div ng-show="tab.isSet(3)" > <!--............................ Ciudad de Buenos Aires..................................-->
 
 
 		  			<div class="textWrapper">
@@ -238,7 +309,7 @@
 				  		<div>
 
 				  				<p  class="exp_overBarGraph">
-									El gr&aacutefico muestra el rango del porcentaje de votos que, seg&uacuten las encuestas analizadas obtendr&aacuten los candidatos en las PASO a diputados nacionales por la provincia de Buenos Aires.
+									El gr&aacutefico muestra el rango del porcentaje de votos que, seg&uacuten las encuestas analizadas obtendr&aacuten los candidatos en las elecciones a diputados nacionales por la provincia de Buenos Aires.
 
 									Las bandas marcan el m&iacutenimo y el m&aacuteximo del porcentaje de votos, con un 95% de probabilidad. El c&iacuterculo marca el promedio que arrojan las encuestas.
 
@@ -248,8 +319,77 @@
 				  	</div>
 
 
+							<!--............................ 3 - ELECCION GENERAL - CABA (SVG 4)..................................-->
+							<div class="textWrapper">
+								<div class="sectionTitle" style="font-size:31px">
+									Elecciones Generales
+								</div>
+							</div>
+				  		<div class="row textWrapper">
+				  			<div class="col-sm-8 col-xs-12">
+					  			<div class="hidden-xs" id="slider2" style="float:left;padding-top:10px">
+					  				<!--aca se va a crear el slider -->
 
-				  		<div class="row">
+						  		</div>
+						  		<!--div id="textoMes2" class="stag"><p class="mesSlider">Agosto</p></div-->
+				  				<!--     ................ GRAFICO ...............     -->
+				  				<div class="" style="width:100%">
+				  					<svg id="svg4" style="float:left;width:100%;"></svg>
+				  				</div>
+
+
+						  	</div>
+						  	<div class="col-sm-4 col-xs-12">
+						  		<div class="hidden-xs">
+						  			<!--p class="explicSlider">
+						  				Us� el slider para cambiar el mes. Las tabla muestra las encuestas que se agregaron cada mes. Pos� el mouse sobre ellas para ver los resultados que dio cada una.
+						  			</p-->
+						  		</div>
+
+				  				<table class="table-condensed ultEncuestas">
+									<tr class="stag-book borderBottomThick">
+										<th><p>FECHA</p></th>
+										<th><p>ENCUESTADORA</p></th>
+										<th><p>PESO</p></th>
+									</tr>
+									<tr class="stag-book borderBottomFino negrita" hover-cand ng-repeat="datos in store.encuestas[3]" ng-mouseenter="createCirculosEncuestas(svgs[4],numeros[3],$index)" ng-mouseleave="	removeCirculosEncuestas(svgs[4])">
+											<td><p>{{datos.fecha}}</p></td>
+											<td><p>{{datos.enc}}</p></td>
+											<td class="textoCenter">
+													<span ng-if="datos.peso >= 0 && datos.peso < 0.05">
+														<img src="images/bat0.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.05 && datos.peso < 0.1">
+														<img src="images/bat1.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.1 && datos.peso < 0.15">
+														<img src="images/bat2.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.15 && datos.peso < 0.20">
+														<img src="images/bat3.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.20 && datos.peso < 0.30">
+														<img src="images/bat4.png" height="20" width="20" />
+													</span>
+													<span ng-if="datos.peso >= 0.30">
+														<img src="images/bat5.png" height="20" width="20" />
+													</span>
+											</td>
+									</tr>
+				  				</table>
+				  				<div class="stag" ng-show="emptyEncuestas === true">Esta encuesta midi� s�lo frentes electorales.</div>
+				  				<div class="stag" ng-show="fichaTec === true">Casos: {{numeros[3][fichaTecIndex][numeros[3][fichaTecIndex].length-1]}}</div>
+						  	</div>
+					  	</div>
+
+
+							<!--............................ 1 -  PASO - CABA (SVG 2)..................................-->
+							<div class="textWrapper">
+								<div class="sectionTitle" style="font-size:31px">
+									PASO
+								</div>
+							</div>
+				  		<div class="row textWrapper">
 				  			<div class="col-sm-8 col-xs-12">
 					  			<div class="hidden-xs" id="slider2" style="float:left;padding-top:10px">
 					  				<!--aca se va a crear el slider -->

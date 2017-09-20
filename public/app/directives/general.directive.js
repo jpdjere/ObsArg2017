@@ -68,16 +68,16 @@ app.directive('generalDirective',['$sce',function($sce){ //Para meter HTML$
 			    .on("mouseover",function(d){
 
 			    	hoveredPath = d3.select(this);
-						console.log(hoveredPath);
-						console.log(d);
+						// console.log(hoveredPath);
+						// console.log(d);
 
 			    	if(d.properties.show === "si"){
 			    		showTooltip(d);
 			    		hoveredPath.style('fill','#205E8C');
 
 			    		$scope.$apply(function() {  //Sin este apply la actualizacion de estadoData no se refleja en el ng-repeat del panel de abajo
-				    		console.log(d.id.toString());
-				    		console.log(selectState(d.id.toString())-1);
+				    		// console.log(d.id.toString());
+				    		// console.log(selectState(d.id.toString())-1);
 				    		$scope.estado.id = selectState(d.id.toString())-1;  //Resto uno. Recordar que esta desfazado el nuero del TAB con el objeto Datos
 				    		$scope.estado.name = d.properties.Provincia.toString();
 				    		//if($scope.estado.id = 4){$scope.estado.name = "Ciudad de México"};

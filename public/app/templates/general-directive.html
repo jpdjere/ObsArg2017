@@ -167,7 +167,9 @@ color:black;
 
   <div class="col-sm-4 col-xs-12" style="height:100%;float:left;padding:15px;">
 
-    <div id="stateResults" ng-repeat="datos in datos"  ng-show="$index === estado.id" class="bloqueH">
+    <!-- Para hacer que muestre la data de las EG en vez de PASO, a estado.id le sumo 2, que es la distancia que hay
+    entre la data de PASO y EG para una misma categoria en el array de arrays de la data. -->
+    <div id="stateResults" ng-repeat="datos in datos"  ng-show="$index === estado.id+2" class="bloqueH">
       <div class="row">
         <div ng-repeat="data in datos | orderBy:'-prom' | filter: { cand: '!NS/NC' } | limitTo: 5" class="bloqueInd">
           <div class="foto">

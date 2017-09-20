@@ -8,7 +8,7 @@
 	@font-face { font-family: Stag-Semibold; src: url('../fonts/Stag-Semibold.otf'); }
 	@font-face { font-family: Stag-Thin; src: url('../fonts/Stag-Thin.otf'); }
 	@font-face { font-family: Stag-ThinDot; src: url('../fonts/Stag-ThinDot.otf'); }
-	
+
 	@font-face { font-family: Stag-Black; src: url('../fonts/Stag-Black.otf'); }        */
 	/*@font-face { font-family: ArialRegular; src: url('fonts/Arial-Regular.ttf'); }*/
 
@@ -25,44 +25,44 @@ html, body {
 	    list-style-type: none;
 	    margin:0;
 	    padding:0;
-	}	
+	}
 
 	li
 	{
 	    margin-top:5px;
 	}
 
-	.stag { 
+	.stag {
 		font-family: Stag-Medium, sans-serif;
 		font-size:17px;
 		color:black;
 	}
-	.stag-book { 
+	.stag-book {
 		font-family: Stag-Book, sans-serif;
 		color:black;
-	}	
+	}
 	/*
-	.stag-light { 
+	.stag-light {
 		font-family: Stag-Light, sans-serif;
 		color:black;
-	}	
-	.stag-thin { 
+	}
+	.stag-thin {
 		font-family: Stag-Thin, sans-serif;
 		color:black;
-	}	
-	.stag-thindot { 
+	}
+	.stag-thindot {
 		font-family: Stag-ThinDot, sans-serif;
 		color:black;
-	}	
-	.stag-thindot { 
+	}
+	.stag-thindot {
 		font-family: Stag-ThinDot, sans-serif;
 		color:black;
 	}		*/
-	.georgia { 
+	.georgia {
 		font-family: Georgia, sans-serif;
 		color:black;
-	}	
-	.arialregular { 
+	}
+	.arialregular {
 		font-family: ArialRegular, sans-serif;
 		color:black;
 	}
@@ -98,21 +98,21 @@ html, body {
 
 	}
 
-	.titulo { 
+	.titulo {
 		font-family: Stag-Medium, sans-serif;
 		font-size:6vw;
 		color: rgb(94, 140, 192);
 		stroke: none;
 
-	}	
+	}
 
-	.titulo2 { 
+	.titulo2 {
 		font-family: Stag-Light, sans-serif;
 		font-size:6vw;
 		color: rgb(94, 140, 192);
 		stroke: none;
 	}
-	
+
 	.wrapper{
 		max-width: 990px;
 		/*background: grey;*/
@@ -139,7 +139,7 @@ html, body {
 
 	.textWrapper{
 		border-bottom:1px solid #9D9EA0;
-		padding-bottom: 25px;
+		padding: 20px;
 	}
 
 	.footer{
@@ -170,9 +170,9 @@ html, body {
 		color: black;
 		margin-top: 25px;
 		margin-bottom: 20px;
-			
 
-	}	
+
+	}
 	.exp_underTable {
 		font-family: Arial,"Times New Roman",Times,serif;
 		font-size:14px;
@@ -185,7 +185,7 @@ html, body {
     	color:black;
 	}
 
-	.text_metod { 
+	.text_metod {
 		font-family: Arial,"Times New Roman",Times,serif;
 		font-size: 14px;
 		color: black;
@@ -199,7 +199,7 @@ html, body {
 
 	.titulosMet{
 		font-weight:800;
-	}	
+	}
 
 	.factor{
 		font-style: italic;
@@ -244,7 +244,7 @@ html, body {
 	.bajadaCol{
 		font-family: Georgia, sans-serif;
 		font-size:17px;
-		color:black;		
+		color:black;
 	}
 
 	.shareButton {
@@ -261,7 +261,7 @@ html, body {
 	  margin: 0 auto;
 	  padding-top: 25px;
 	  text-align: center;
-	}	
+	}
 
 	.mesSliderFrentes{
 
@@ -316,8 +316,8 @@ html, body {
     	font-size: 28px;
     	margin: 0 auto;
     	font-family: Stag-Medium, sans-serif;
-    	color: #757575;	
-	}	
+    	color: #757575;
+	}
 
 	.tituloPV {
 	  width: 600px;
@@ -332,7 +332,7 @@ html, body {
     	font-size: 28px;
     	margin: 0 auto;
     	font-family: Stag-Medium, sans-serif;
-    	color: #757575;	
+    	color: #757575;
 	}
 	.tituloPASO-CABA {
 	  width: 205px;
@@ -341,7 +341,7 @@ html, body {
 	  padding-top: 25px;
 	  font-family: Stag-Medium, sans-serif;
 	  color: black;
-	}	
+	}
 
 	.tituloEG-CABA {
 	  width: 535px;
@@ -350,7 +350,7 @@ html, body {
 	  padding-top: 25px;
 	  font-family: Stag-Medium, sans-serif;
 	  color: black;
-	}		
+	}
 
 	.tituloDifPre{
 	    width: 1000px;
@@ -381,7 +381,7 @@ html, body {
 		fill:rgb(135, 179, 228);
 		stroke:rgb(135, 179, 228);
 		stroke-width:1;
-	}	
+	}
 
 	.rectHover{
 		fill:rgba(51, 51, 192, 0.92);
@@ -527,7 +527,7 @@ th>p,td>p {
 	}
 	.logoTop{
 		display:none;
-	}		
+	}
 	.logoMobile{
 		display:block !important;
 		float:left;
@@ -566,7 +566,7 @@ th>p,td>p {
 
 	.mobileShow{
 		display:block !important;
-	}	
+	}
 	.mobileHidden{
 		display:none !important;
 		float:left;
@@ -584,7 +584,7 @@ th>p,td>p {
 	.divSvgMobilePasoCABA{
 		height: 800px;
   		width: 97%;
-	}	
+	}
 	.divSvgMobileGralCABA{
 		height: 400px;
   		width: 97%;
@@ -592,7 +592,7 @@ th>p,td>p {
 
 	.divSvgMobilePasoProv{
 		height: 700px;
-  		width: 97%;		
+  		width: 97%;
 	}
 
 
@@ -623,7 +623,7 @@ th>p,td>p {
 
 	#svggraficoCandPASO{
 		float:initial !important;
-		
+
 	}
 	.graficoyTablaCandPASO{
 
@@ -651,7 +651,7 @@ th>p,td>p {
 
 
 	/*------------------------METODOLOGIA TEXTO--------------------------*/
-	.text_metod { 
+	.text_metod {
 		font-family: Arial,"Times New Roman",Times,serif;
 		font-size: 40px;
 		color: black;
@@ -719,5 +719,3 @@ th>p,td>p {
 
 
 }
-
-

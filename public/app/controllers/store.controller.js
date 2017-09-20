@@ -4,7 +4,7 @@ var app = angular.module('store');
 		//Traigo la data de data.js
 		this.ratings = ratings;
 		this.encuestas = encuestas;
-		var numeroDistritos = 5;
+		var numeroDistritos = 4;
 
 		//Meto las encuestas en su array
 		$scope.encuestas = [];
@@ -23,6 +23,7 @@ var app = angular.module('store');
 
 		for(var i = 0;i<=numeroDistritos-1;i++){
 
+			// console.log(i);
 			$scope.datos[i] = cand[i][0];  //el 0 es por el ultimo mes
 
 		}
