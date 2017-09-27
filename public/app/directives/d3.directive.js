@@ -413,7 +413,7 @@ var app = angular.module('store');
 						var data = datos;
 						var container = containerSVG;
 						var numMes;
-						console.log(scope.mesSlider);
+						// console.log(scope.mesSlider);
 
 
 							w = 1000;
@@ -458,23 +458,23 @@ var app = angular.module('store');
 
 						var container = containerSVG;
 						var datos = data;
-						var caba = false;
+						var caba = true;
 
 						if(data[index].length-1 === 6){
 							ajusteYcirc = 57.6;
 							ajusteRcirc = 4;
 							comienzoVertGraf = 63.5;
-							console.log("Data es: " + data[index]);
+							// console.log("Data es: " + data[index]);
 						}else if(data[index].length-1 === 5){
 							ajusteYcirc = 67.5;
 							ajusteRcirc = 4;
 							comienzoVertGraf = 77;
-							console.log("Data es: " + data[index]);
+							// console.log("Data es: " + data[index]);
 						}else if(data[index].length-1 === 4){
 							ajusteYcirc = 87;
 							ajusteRcirc = 4;
 							comienzoVertGraf = 82;
-							console.log("Data es: " + data[index]);
+							// console.log("Data es: " + data[index]);
 						}
 
 
@@ -528,8 +528,8 @@ var app = angular.module('store');
 							})
 							.duration(300);
 
-							console.log("Data1: "+data[0][0]);
-							console.log("Data2: "+data[0][1]);
+							// console.log("Data1: "+data[0][0]);
+							// console.log("Data2: "+data[0][1]);
 							if(data[index][0] === 0 && data[index][1] === 0){
 								scope.emptyEncuestas = true;
 							}else{

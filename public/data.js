@@ -60,13 +60,12 @@ var cand =
 		/*---------------------------------------------------------------------------------------------------------*/
 		/*------------------------------------------ 2 - provincia de Buenos Aires 1 - Eleccion General -------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
-
-    [{"cand":"Bullrich","prom":37.83873669,"desv":1.70827314,"promPROY":41.2263122,"desvPROY":1.900448123,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
-    {"cand":"C. Kirchner","prom":35.36868079,"desv":2.217899184,"promPROY":38.49372582,"desvPROY":1.456372604,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-    {"cand":"Massa","prom":10.9670697,"desv":0.958871603,"promPROY":11.94292657,"desvPROY":0.948586681,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
-    {"cand":"Randazzo","prom":4.346534271,"desv":1.334784074,"promPROY":4.719561513,"desvPROY":1.390035236,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
-    {"cand":"Pitrola","prom":3.311652734,"desv":0.500211034,"promPROY":3.617473893,"desvPROY":0.625984783,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
-    {"cand":"NS/NC:","prom":8.167325814,"desv":3.19025057,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
+    [{"cand":"Bullrich","prom":"38.26%","desv":"1.49%","cand":"Bullrich","prom":38.25631636,"desv":1.488151118,"promPROY":41.17506408,"desvPROY":1.675828137,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
+    {"cand":"C. Kirchner","prom":"35.94%","desv":"1.90%","cand":"C. Kirchner","prom":35.93599738,"desv":1.899013737,"promPROY":38.64231694,"desvPROY":1.142640096,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
+    {"cand":"Massa","prom":"11.63%","desv":"1.61%","cand":"Massa","prom":11.63372386,"desv":1.612196182,"promPROY":12.49500847,"desvPROY":1.477098,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
+    {"cand":"Randazzo","prom":"3.84%","desv":"1.25%","cand":"Randazzo","prom":3.843487877,"desv":1.250731229,"promPROY":4.139664191,"desvPROY":1.351453442,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
+    {"cand":"Pitrola","prom":"3.29%","desv":"0.40%","cand":"Pitrola","prom":3.290965438,"desv":0.397627299,"promPROY":3.547946317,"desvPROY":0.49596681,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
+    {"cand":"NS/NC:","prom":"7.04%","desv":"3.05%","cand":"NS/NC:","prom":7.039509086,"desv":3.045593745,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 ],
 
 [
@@ -74,15 +73,13 @@ var cand =
 		/*------------------------------------- 3 - CABA - Eleccion General---------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"cand":carrio,"prom":"51.90%","desv":"2.09%","cand":carrio,"promPROY":51.89649286,"desvPROY":2.09317998,"prom":56.76460476,"desv":1.269278139,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
-    {"cand":"Filmus","prom":"21.41%","desv":"1.61%","cand":"Filmus","promPROY":21.41178476,"desvPROY":1.608029597,"prom":23.42827777,"desv":1.704700509,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
-    {"cand":"Losteau","prom":"11.14%","desv":"0.56%","cand":"Losteau","promPROY":11.14082926,"desvPROY":0.558250028,"prom":12.19416355,"desv":0.67970493,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
-    {"cand":"Tombolini","prom":"3.88%","desv":"0.76%","cand":"Tombolini","promPROY":3.878993409,"desvPROY":0.759352512,"prom":4.24750567,"desv":0.842631751,"fotos":"images/cand/tombolini.png","nombComp":"Matías Tombolini","partido":"FR"},
-    {"cand":"Ramal","prom":"3.07%","desv":"0.91%","cand":"Ramal","promPROY":3.068352047,"desvPROY":0.909678874,"prom":3.365448243,"desv":1.025837518,"fotos":"images/cand/otros.png","nombComp":"Marcelo Ramal","partido":"FIT"},
-    {"cand":"NS/NC:","prom":"8.60%","desv":"1.73%","cand":"NS/NC:","promPROY":8.603547662,"desvPROY":1.726531259,"prom":0,"desv":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
+    [{"cand":carrio,"prom":"51.99%","desv":"1.80%","cand":carrio,"promPROY":51.99194841,"desvPROY":1.804845521,"prom":56.2575635,"desv":1.530516106,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
+    {"cand":"Filmus","prom":"21.29%","desv":"1.40%","cand":"Filmus","promPROY":21.29472916,"desvPROY":1.400001442,"prom":23.05465877,"desv":1.662231321,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
+    {"cand":"Losteau","prom":"11.74%","desv":"1.36%","cand":"Losteau","promPROY":11.74269806,"desvPROY":1.364904037,"prom":12.68812604,"desv":1.19995597,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
+    {"cand":"Tombolini","prom":"4.07%","desv":"0.77%","cand":"Tombolini","promPROY":4.073773995,"desvPROY":0.771002983,"prom":4.40374241,"desv":0.794573582,"fotos":"images/cand/tombolini.png","nombComp":"Matías Tombolini","partido":"FR"},
+    {"cand":"Ramal","prom":"3.33%","desv":"0.95%","cand":"Ramal","promPROY":3.326363234,"desvPROY":0.952779208,"prom":3.595909278,"desv":1.006042793,"fotos":"images/cand/otros.png","nombComp":"Marcelo Ramal","partido":"FIT"},
+    {"cand":"NS/NC:","prom":"7.57%","desv":"2.65%","cand":"NS/NC:","promPROY":7.570487142,"desvPROY":2.646271573,"prom":0,"desv":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 ]
-
-
 ];
 
 
@@ -201,22 +198,25 @@ var encuestas =
 		/*------------------------------------------ 2 - PBA ELECCION GENERAL-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.162641034},
-    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.183741833},
-    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.167065901},
-    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.116705138},
-    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.218794467},
-    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.151051627}]
+    [{"nro":8,"enc":"OPSM","fecha":"26/09/2017","peso":0.205262149},
+    {"nro":7,"enc":"Query","fecha":"24/09/2017","peso":0.17187137},
+    {"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.101303648},
+    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.114446629},
+    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.10405975},
+    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.072691719},
+    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.136279739},
+    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.094084995}]
 		,
 
 		/*---------------------------------------------------------------------------------------------------------*/
 		/*------------------------------------------ 3 - CIUDAD PASO-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"nro":4,"enc":"Rouvier","fecha":"13/09/2017","peso":0.308137112},
-    {"nro":3,"enc":"CEIS","fecha":"12/09/2017","peso":0.323350083},
-    {"nro":2,"enc":"Opinaia","fecha":"04/09/2017","peso":0.156443172},
-    {"nro":1,"enc":"Taquion","fecha":"30/08/2017","peso":0.212069633}]
+    [{"nro":5,"enc":aragon,"fecha":"21/09/2017","peso":0.216966266},
+    {"nro":4,"enc":"Rouvier","fecha":"13/09/2017","peso":0.241281753},
+    {"nro":3,"enc":"CEIS","fecha":"12/09/2017","peso":0.253194023},
+    {"nro":2,"enc":"Opinaia","fecha":"04/09/2017","peso":0.122500281},
+    {"nro":1,"enc":"Taquion","fecha":"30/08/2017","peso":0.166057676}]
 		,
 
 
@@ -312,12 +312,14 @@ var numeros =
 		/*---------------------------------------------------------------------------------------------------------*/
 
     {
-      "5":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
-      "4":[39.8,36,11.9,3.9,4.3,0,1718],
-      "3":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
-      "2":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
-      "1":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
-      "0":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836]
+      "7":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
+      "6":[39.8,36,11.9,3.9,4.3,0,1718],
+      "5":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
+      "4":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
+      "3":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
+      "2":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836],
+      "1":[38.91837607,37.77371795,14.46431624,2.809615385,3.433974359,0,1000],
+      "0":[42.4437299,39.01393355,11.68274384,3.536977492,3.32261522,0,1179]
     }
 	,
 
@@ -326,10 +328,11 @@ var numeros =
 		/*---------------------------------------------------------------------------------------------------------*/
 
     {
-      "3":[54.30792752,20.24303511,11.97168743,5.22400906,4.353340883,0,800],
-      "2":[50.5,22.5,11.5,4.1,3.9,0,519],
-      "1":[55.05681818,23.75,10.79545455,3.238636364,2.159090909,0,800],
-      "0":[53.04332553,21.43606557,11.92107728,3.937236534,3.062295082,0,750]
+      "4":[54.30792752,20.24303511,11.97168743,5.22400906,4.353340883,0,800],
+      "3":[50.5,22.5,11.5,4.1,3.9,0,519],
+      "2":[55.05681818,23.75,10.79545455,3.238636364,2.159090909,0,800],
+      "1":[53.04332553,21.43606557,11.92107728,3.937236534,3.062295082,0,750],
+      "0":[52.41382289,20.90313175,13.93542117,4.783801296,4.263822894,0,501]
     }
 
 
