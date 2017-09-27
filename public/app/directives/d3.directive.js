@@ -458,7 +458,7 @@ var app = angular.module('store');
 
 						var container = containerSVG;
 						var datos = data;
-						var caba = true;
+						var caba = false;
 
 						if(data[index].length-1 === 6){
 							ajusteYcirc = 57.6;
