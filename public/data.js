@@ -60,12 +60,12 @@ var cand =
 		/*---------------------------------------------------------------------------------------------------------*/
 		/*------------------------------------------ 2 - provincia de Buenos Aires 1 - Eleccion General -------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
-    [{"cand":"Bullrich","prom":"38.26%","desv":"1.49%","cand":"Bullrich","prom":38.25631636,"desv":1.488151118,"promPROY":41.17506408,"desvPROY":1.675828137,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
-    {"cand":"C. Kirchner","prom":"35.94%","desv":"1.90%","cand":"C. Kirchner","prom":35.93599738,"desv":1.899013737,"promPROY":38.64231694,"desvPROY":1.142640096,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-    {"cand":"Massa","prom":"11.63%","desv":"1.61%","cand":"Massa","prom":11.63372386,"desv":1.612196182,"promPROY":12.49500847,"desvPROY":1.477098,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
-    {"cand":"Randazzo","prom":"3.84%","desv":"1.25%","cand":"Randazzo","prom":3.843487877,"desv":1.250731229,"promPROY":4.139664191,"desvPROY":1.351453442,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
-    {"cand":"Pitrola","prom":"3.29%","desv":"0.40%","cand":"Pitrola","prom":3.290965438,"desv":0.397627299,"promPROY":3.547946317,"desvPROY":0.49596681,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
-    {"cand":"NS/NC:","prom":"7.04%","desv":"3.05%","cand":"NS/NC:","prom":7.039509086,"desv":3.045593745,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
+    [{"cand":"Bullrich","prom":"38.48%","desv":"1.39%","cand":"Bullrich","prom":38.47817988,"desv":1.392603711,"promPROY":41.6579369,"desvPROY":1.786965708,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
+    {"cand":"C. Kirchner","prom":"35.37%","desv":"2.05%","cand":"C. Kirchner","prom":35.36784629,"desv":2.049624394,"promPROY":38.24420607,"desvPROY":1.303784454,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
+    {"cand":"Massa","prom":"11.21%","desv":"1.67%","cand":"Massa","prom":11.21218535,"desv":1.670804119,"promPROY":12.10635971,"desvPROY":1.533440442,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
+    {"cand":"Randazzo","prom":"4.11%","desv":"1.23%","cand":"Randazzo","prom":4.105644322,"desv":1.23119895,"promPROY":4.452911031,"desvPROY":1.358929981,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
+    {"cand":"Pitrola","prom":"3.27%","desv":"0.36%","cand":"Pitrola","prom":3.265145472,"desv":0.355270397,"promPROY":3.538586281,"desvPROY":0.438504849,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
+    {"cand":"NS/NC:","prom":"7.57%","desv":"2.91%","cand":"NS/NC:","prom":7.570998683,"desv":2.907025303,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 ],
 
 [
@@ -198,14 +198,15 @@ var encuestas =
 		/*------------------------------------------ 2 - PBA ELECCION GENERAL-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"nro":8,"enc":"OPSM","fecha":"26/09/2017","peso":0.205262149},
-    {"nro":7,"enc":"Query","fecha":"24/09/2017","peso":0.17187137},
-    {"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.101303648},
-    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.114446629},
-    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.10405975},
-    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.072691719},
-    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.136279739},
-    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.094084995}]
+    [{"nro":9,"enc":"Rouvier","fecha":"27/09/2017","peso":0.207440913},
+    {"nro":8,"enc":"OPSM","fecha":"26/09/2017","peso":0.162682382},
+    {"nro":7,"enc":"Query","fecha":"24/09/2017","peso":0.136218216},
+    {"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.080289127},
+    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.090705716},
+    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.0824735},
+    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.057612482},
+    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.108009746},
+    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.074567918}]
 		,
 
 		/*---------------------------------------------------------------------------------------------------------*/
@@ -312,14 +313,15 @@ var numeros =
 		/*---------------------------------------------------------------------------------------------------------*/
 
     {
-      "7":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
-      "6":[39.8,36,11.9,3.9,4.3,0,1718],
-      "5":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
-      "4":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
-      "3":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
-      "2":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836],
-      "1":[38.91837607,37.77371795,14.46431624,2.809615385,3.433974359,0,1000],
-      "0":[42.4437299,39.01393355,11.68274384,3.536977492,3.32261522,0,1179]
+      "8":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
+      "7":[39.8,36,11.9,3.9,4.3,0,1718],
+      "6":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
+      "5":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
+      "4":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
+      "3":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836],
+      "2":[38.91837607,37.77371795,14.46431624,2.809615385,3.433974359,0,1000],
+      "1":[42.4437299,39.01393355,11.68274384,3.536977492,3.32261522,0,1179],
+      "0":[42.58926554,35.9519774,10.39841808,5.531073446,3.429265537,0,1200]
     }
 	,
 
