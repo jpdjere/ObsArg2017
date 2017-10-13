@@ -18,6 +18,7 @@ var martinlousteau = decode_utf8("Martín Lousteau");
 var evolucionciudadana = decode_utf8("Evolución Ciudadana");
 var elisacarrio = decode_utf8("Elisa Carrió");
 var juancabandie = decode_utf8("Juan Cabandié");
+var matiastombolini = decode_utf8("Matías Tombolini");
 
 var aragon = decode_utf8("Aragón");
 var analogias = decode_utf8("Analogías");
@@ -51,7 +52,7 @@ var cand =
     [{"cand":carrio,"promPROY":50.25276817,"desvPROY":4.021161116,"prom":53.61201428,"desv":4.198749211,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
     {"cand":"Filmus","promPROY":23.29049536,"desvPROY":2.964506848,"prom":24.85423219,"desv":3.174157664,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
     {"cand":"Losteau","promPROY":14.29479616,"desvPROY":3.72846416,"prom":15.21322015,"desv":3.805103967,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
-    {"cand":"Tombolini","promPROY":2.933145145,"desvPROY":0.975805447,"prom":3.158580805,"desv":1.180465142,"fotos":"images/cand/tombolini.png","nombComp":"Matias Tombolini","partido":"FR"},
+    {"cand":"Tombolini","promPROY":2.933145145,"desvPROY":0.975805447,"prom":3.158580805,"desv":1.180465142,"fotos":"images/cand/tombolini.png","nombComp":matiastombolini,"partido":"FR"},
     {"cand":"Ramal","promPROY":2.998510932,"desvPROY":1.936616456,"prom":3.161952574,"desv":1.990326016,"fotos":"images/cand/otros.png","nombComp":"Marcelo Ramal","partido":"FIT"},
     {"cand":"NS/NC:","promPROY":6.230284234,"desvPROY":3.020129796,"prom":0,"desv":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 
@@ -61,12 +62,12 @@ var cand =
 		/*---------------------------------------------------------------------------------------------------------*/
 		/*------------------------------------------ 2 - provincia de Buenos Aires 1 - Eleccion General -------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
-    [{"cand":"Bullrich","prom":37.66576773,"desv":1.79252946,"promPROY":41.09404558,"desvPROY":1.485166419,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
-    {"cand":"C. Kirchner","prom":34.18730756,"desv":2.688557341,"promPROY":37.2522877,"desvPROY":1.843637866,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
-    {"cand":"Massa","prom":11.7605928,"desv":1.370426798,"promPROY":12.82773967,"desvPROY":1.395325569,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
-    {"cand":"Randazzo","prom":4.536389591,"desv":1.347744312,"promPROY":4.982467308,"desvPROY":1.577359495,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
-    {"cand":"Pitrola","prom":3.513784527,"desv":0.392090429,"promPROY":3.843459736,"desvPROY":0.506142748,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
-    {"cand":"NS/NC:","prom":8.336157797,"desv":3.104798323,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
+    [{"cand":"Bullrich","prom":37.70156974,"desv":1.674721711,"promPROY":41.18920904,"desvPROY":1.344010057,"fotos":"images/cand/bullrich.png","nombComp":"Esteban Bullrich","partido":"Cambiemos"},
+    {"cand":"C. Kirchner","prom":34.27628065,"desv":2.449820924,"promPROY":37.41069842,"desvPROY":1.710001692,"fotos":"images/cand/cfk.png","nombComp":"Cristina F. Kirchner","partido":"FPV"},
+    {"cand":"Massa","prom":11.81121809,"desv":1.229882454,"promPROY":12.9049707,"desvPROY":1.28708411,"fotos":"images/cand/massa.png","nombComp":"Sergio Massa","partido":unPais},
+    {"cand":"Randazzo","prom":4.418772683,"desv":1.221518194,"promPROY":4.855328843,"desvPROY":1.429575614,"fotos":"images/cand/randazzo.png","nombComp":"Florencio Randazzo","partido":"Cumplir-PJ"},
+    {"cand":"Pitrola","prom":3.324569946,"desv":0.513255238,"promPROY":3.639792992,"desvPROY":0.608372442,"fotos":"images/cand/pitrola.png","nombComp":"Nestor Pitrola","partido":"FIT"},
+    {"cand":"NS/NC:","prom":8.467588895,"desv":2.787267014,"promPROY":0,"desvPROY":0,"fotos":"images/cand/nsnc.png","nombComp":"NS/NC","partido":"NS/NC"}]
 
 ],
 
@@ -75,12 +76,12 @@ var cand =
 		/*------------------------------------- 3 - CABA - Eleccion General---------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"cand":carrio,"promPROY":51.04461535,"desvPROY":2.510182846,"prom":55.36793702,"desv":3.116749782,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Vamos Juntos"},
-    {"cand":"Filmus","promPROY":20.02532237,"desvPROY":1.721705505,"prom":21.71363305,"desv":1.850151622,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
-    {"cand":"Losteau","promPROY":11.16615566,"desvPROY":1.127476792,"prom":12.09038054,"desv":0.949254018,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
-    {"cand":"Zamora","promPROY":3.800998388,"desvPROY":1.113164548,"prom":4.122215872,"desv":1.206479599,"fotos":"images/cand/zamora.png","nombComp":"Luis Zamora","partido":"AyL"},
-    {"cand":"Tombolini","promPROY":3.308132022,"desvPROY":1.447064695,"prom":3.570830489,"desv":1.534031753,"fotos":"images/cand/tombolini.png","nombComp":"M. Tombolini","partido":"FR"},
-    {"cand":"Ramal","promPROY":3.308132022,"desvPROY":1.447064695,"prom":3.135003037,"desv":1.064565589,"fotos":"images/cand/ramal.png","nombComp":"Marcelo Ramal","partido":"FIT"}]
+    [{"cand":carrio,"promPROY":51.85206072,"desvPROY":2.388720246,"prom":55.49062857,"desv":2.530810157,"fotos":"images/cand/carrio.png","nombComp":elisacarrio,"partido":"Cambiemos"},
+    {"cand":"Filmus","promPROY":20.28984774,"desvPROY":1.453420549,"prom":21.70988617,"desv":1.49806909,"fotos":"images/cand/filmus.png","nombComp":"Daniel Filmus","partido":"FPV"},
+    {"cand":"Losteau","promPROY":11.25541649,"desvPROY":0.923393575,"prom":12.03323093,"desv":0.77372155,"fotos":"images/cand/lousteau.png","nombComp":martinlousteau,"partido":evolucionciudadana},
+    {"cand":"Zamora","promPROY":3.594364525,"desvPROY":0.956833895,"prom":3.853757619,"desv":1.062261054,"fotos":"images/cand/zamora.png","nombComp":"Luis Zamora","partido":"AyL"},
+    {"cand":"Tombolini","promPROY":3.428330889,"desvPROY":1.186481168,"prom":3.65516314,"desv":1.24899417,"fotos":"images/cand/tombolini.png","nombComp":matiastombolini,"partido":"FR"},
+    {"cand":"Ramal","promPROY":3.428330889,"desvPROY":1.186481168,"prom":3.257333573,"desv":0.882694085,"fotos":"images/cand/ramal.png","nombComp":"Marcelo Ramal","partido":"FIT"}]
 ]
 ];
 
@@ -200,29 +201,32 @@ var encuestas =
 		/*------------------------------------------ 2 - PBA ELECCION GENERAL-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"nro":11,"enc":poliarquia,"fecha":"08/10/2017","peso":0.144776966},
-    {"nro":10,"enc":"M&F","fecha":"07/10/2017","peso":0.314952553},
-    {"nro":9,"enc":"Rouvier","fecha":"27/09/2017","peso":0.112074202},
-    {"nro":8,"enc":"OPSM","fecha":"26/09/2017","peso":0.087892488},
-    {"nro":7,"enc":"Query","fecha":"24/09/2017","peso":0.073594681},
-    {"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.043377845},
-    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.049005621},
-    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.044557998},
-    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.031126323},
-    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.058354477},
-    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.040286845}]
+    [{"nro":13,"enc":"Rouvier","fecha":"13/10/2017","peso":0.149450964},
+    {"nro":12,"enc":"Synopsis","fecha":"10/10/2017","peso":0.091884426},
+    {"nro":11,"enc":poliarquia,"fecha":"08/10/2017","peso":0.112339983},
+    {"nro":10,"enc":"M&F","fecha":"07/10/2017","peso":0.244388078},
+    {"nro":9,"enc":"Rouvier","fecha":"27/09/2017","peso":0.086964206},
+    {"nro":8,"enc":"OPSM","fecha":"26/09/2017","peso":0.068200356},
+    {"nro":7,"enc":"Query","fecha":"24/09/2017","peso":0.057105943},
+    {"nro":6,"enc":"Circuitos","fecha":"19/09/2017","peso":0.033659128},
+    {"nro":5,"enc":"CEIS","fecha":"12/09/2017","peso":0.038026012},
+    {"nro":4,"enc":"Synopsis","fecha":"11/09/2017","peso":0.017287435},
+    {"nro":3,"enc":"Taquion","fecha":"08/09/2017","peso":0.024152534},
+    {"nro":2,"enc":"Opinaia","fecha":"07/09/2017","peso":0.045280276},
+    {"nro":1,"enc":"Opina Argentina","fecha":"06/09/2017","peso":0.03126066}]
 		,
 
 		/*---------------------------------------------------------------------------------------------------------*/
-		/*------------------------------------------ 3 - CIUDAD PASO-------------------------------------------------------*/
+		/*------------------------------------------ 3 - CIUDAD ELECCION GENERAL-------------------------------------------------------*/
 		/*---------------------------------------------------------------------------------------------------------*/
 
-    [{"nro":6,"enc":"M&F","fecha":"06/10/2017","peso":0.132372074},
-    {"nro":5,"enc":aragon,"fecha":"22/09/2017","peso":0.275009066},
-    {"nro":4,"enc":"Rouvier","fecha":"13/09/2017","peso":0.18311189},
-    {"nro":3,"enc":"CEIS","fecha":"12/09/2017","peso":0.189502109},
-    {"nro":2,"enc":"Opinaia","fecha":"04/09/2017","peso":0.093215704},
-    {"nro":1,"enc":"Taquion","fecha":"30/08/2017","peso":0.126789157}]
+    [{"nro":7,"enc":"Rouvier","fecha":"11/10/2017","peso":0.32566308},
+    {"nro":6,"enc":"M&F","fecha":"06/10/2017","peso":0.145821438},
+    {"nro":5,"enc":aragon,"fecha":"22/09/2017","peso":0.119132567},
+    {"nro":4,"enc":"Rouvier","fecha":"13/09/2017","peso":0.126494252},
+    {"nro":3,"enc":"CEIS","fecha":"12/09/2017","peso":0.130908634},
+    {"nro":2,"enc":"Opinaia","fecha":"04/09/2017","peso":0.064393692},
+    {"nro":1,"enc":"Taquion","fecha":"30/08/2017","peso":0.087586336}]
 
 
 		,
@@ -320,17 +324,19 @@ var numeros =
 		/*---------------------------------------------------------------------------------------------------------*/
 
     {
-      "10":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
-      "9":[39.8,36,11.9,3.9,4.3,0,1718],
-      "8":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
-      "7":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
-      "6":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
-      "5":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836],
-      "4":[38.91837607,37.77371795,14.46431624,2.809615385,3.433974359,0,1000],
-      "3":[42.4437299,39.01393355,11.68274384,3.536977492,3.32261522,0,1179],
-      "2":[42.58926554,35.9519774,10.39841808,5.531073446,3.429265537,0,1200],
-      "1":[38.19266272,33.34816568,13.18153846,6.309112426,4.16852071,0,2000],
-      "0":[39.63227917,37.00414395,12.82529989,3.258887677,3.679389313,0,1130]
+      "12":[39.61702128,36.4893617,12.5106383,6.255319149,3.127659574,0,1200],
+      "11":[39.8,36,11.9,3.9,4.3,0,1718],
+      "10":[40.3207331,37.2279496,11.79839633,6.414662085,4.238258877,0,850],
+      "9":[43.49276974,38.15350389,12.34705228,3.003337041,3.003337041,0,1101],
+      "8":[36.92307692,39.03296703,11.6043956,5.274725275,3.164835165,0,1220],
+      "7":[42.27009858,39.04337349,9.895290252,3.656955093,3.334282585,0,836],
+      "6":[38.91837607,37.77371795,14.46431624,2.809615385,3.433974359,0,1000],
+      "5":[42.4437299,39.01393355,11.68274384,3.536977492,3.32261522,0,1179],
+      "4":[42.58926554,35.9519774,10.39841808,5.531073446,3.429265537,0,1200],
+      "3":[38.19266272,33.34816568,13.18153846,6.309112426,4.16852071,0,2000],
+      "2":[39.63227917,37.00414395,12.82529989,3.258887677,3.679389313,0,1130],
+      "1":[42.59805195,39.13831169,12.10909091,3.45974026,2.594805195,0,1114],
+      "0":[40.52362205,36.7488189,13.54488189,4.774015748,3.108661417,0,1200]
     }
 	,
 
@@ -339,12 +345,13 @@ var numeros =
 		/*---------------------------------------------------------------------------------------------------------*/
 
     {
-      "5":[54.11690141,20.17183099,11.92957746,4.338028169,5.205633803,4.338028169,800],
-      "4":[50.25107128,22.38909116,11.44331326,3.980282874,4.079789945,3.880775802,519],
-      "3":[54.96666667,23.71111111,10.77777778,2.155555556,3.233333333,2.155555556,800],
-      "2":[52.87429538,21.36775648,11.88308906,3.597632469,3.924689966,3.05253664,750],
-      "1":[52.31654676,20.8643371,13.90955807,4.878725591,4.774922919,4.255909558,501],
-      "0":[58.10534699,19.44209329,11.26757679,5.302389078,1.104664391,1.877929465,400]
+      "6":[54.11690141,20.17183099,11.92957746,4.338028169,5.205633803,4.338028169,800],
+      "5":[50.25107128,22.38909116,11.44331326,3.980282874,4.079789945,3.880775802,519],
+      "4":[54.96666667,23.71111111,10.77777778,2.155555556,3.233333333,2.155555556,800],
+      "3":[52.87429538,21.36775648,11.88308906,3.597632469,3.924689966,3.05253664,750],
+      "2":[52.31654676,20.8643371,13.90955807,4.878725591,4.774922919,4.255909558,501],
+      "1":[58.10534699,19.44209329,11.26757679,5.302389078,1.104664391,1.877929465,400],
+      "0":[54.57404255,21.24638298,11.66468085,3.228617021,3.749361702,3.436914894,750]
     }
 
 
